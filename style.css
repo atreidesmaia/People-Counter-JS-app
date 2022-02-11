@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Passion+One&display=swap");
+
+body {
+  background-image: url(train-station.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Passion One";
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+button {
+  border: none;
+  padding: 1em auto;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: rgb(231, 59, 59);
+  color: white;
+}
+
+#save-btn {
+  background: rgb(20, 92, 20);
+  color: white;
+}
+
+#save-el {
+  font-style: oblique;
+  font-family: "Nunito";
+}
